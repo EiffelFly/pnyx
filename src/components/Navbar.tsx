@@ -1,6 +1,6 @@
 import React from "react";
-import { HowItWorksButton } from "./HowItWorksButton";
-import { FeaturesButton } from "./FeaturesButton"
+import { HowItWorksButton } from "./buttons/HowItWorksButton";
+import { FeaturesButton } from "./buttons/FeaturesButton"
 
 export const Navbar: React.FC = () => {
   return (
