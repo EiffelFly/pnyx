@@ -2,12 +2,14 @@ import React from "react";
 import { Header } from "./Header";
 import { SubHeader } from "./SubHeader";
 
-interface Props {}
+interface Props {
+  className: string;
+}
 
-export const HowItWorksHeadline: React.FC<Props> = () => {
+export const HowItWorksHeadline: React.FC<Props> = ({ className }) => {
   return (
     <div
-      className="flex flex-col"
+    className={"flex flex-col gap-y-4 " +  className }
     >
       <Header >
         Take every conversation as whole picture
