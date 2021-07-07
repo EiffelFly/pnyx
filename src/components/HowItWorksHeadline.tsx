@@ -2,7 +2,9 @@ import React from "react";
 import { Header } from "./Header";
 import { SubHeader } from "./SubHeader";
 
-export const HowItWorksHeadline = () => {
+interface Props {}
+
+export const HowItWorksHeadline: React.FC<Props> = () => {
   return (
     <div
       className="flex flex-col"
