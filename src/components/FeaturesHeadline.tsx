@@ -9,7 +9,7 @@ interface Props {
 export const FeaturesHeadline: React.FC<Props> = ({ className }) => {
   return (
     <div
-      className={"flex flex-col gap-y-4" + " " +  className }
+      className={"flex flex-col gap-y-4 " +  className }
     >
       <Header>
         Built for cultivating briliant ideas

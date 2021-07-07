@@ -11,7 +11,7 @@ interface Props {
 export const Footer: React.FC<Props> = ({ className }) => {
   return (
     <div
-      className={"flex w-screen justify-center flex-row px-6 h-20 flex-shrink-0" + " " + className }
+      className={"flex w-screen justify-center flex-row px-6 h-20 flex-shrink-0 " + className }
     >
       <PrivateAndPoliciesButton />
       <CustomizeDivider height={6} width={2} />

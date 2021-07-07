@@ -9,7 +9,7 @@ interface Props {
 export const HowItWorksBulletPoints: React.FC<Props> = ({ className }) => {
   return (
     <div
-      className={ "flex flex-col gap-y-12" + " " + className }
+      className={ "flex flex-col gap-y-12 " + className }
     >
       <HowItWorksBulletPointLayout
         number={1}

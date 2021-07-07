@@ -1,5 +1,5 @@
 import * as React from "react";
-import PnyxMainHeroImg from "../static/PnyxMainHeroImg.png"
+import PnyxMainHeroImg from "../static/img/PnyxMainHeroImg.png"
 
 interface Props {
   className: string;
