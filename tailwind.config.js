@@ -22,6 +22,12 @@ module.exports = {
         'sd-cyan': '#2aa198',
         'sd-green': '#859900',
       },
+      width: {
+        "120": "30rem",
+      },
+      height: {
+        "120": "30rem"
+      }
     },
   },
   variants: {
