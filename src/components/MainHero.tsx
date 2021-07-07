@@ -8,7 +8,7 @@ interface Props {
 export const MainHero: React.FC<Props> = ({ className }) => {
   return (
     <div
-      className={className + " mx-auto"}
+      className={className}
     >
       <img src={PnyxMainHeroImg} className="object-contain shadow-2xl rounded-2xl" alt="main-hero-img" />
     </div>

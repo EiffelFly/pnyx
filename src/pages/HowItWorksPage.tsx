@@ -1,11 +1,13 @@
 import * as React from "react";
 
-interface Props {}
+interface Props { }
 
 export const HowItWorksPage: React.FC<Props> = () => {
   return (
-      <div>
-          
-      </div>
+    <div
+      className="flex flex-col bg-sd-white w-screen h-screen"
+    >
+      
+    </div>
   )
 }
