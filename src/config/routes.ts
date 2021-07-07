@@ -1,7 +1,7 @@
 import { HomePage } from "../pages/HomePage";
 import { FeaturesPage } from "../pages/FeaturesPage";
 import { HowItWorksPage } from "../pages/HowItWorksPage";
-import { IRoute } from "../interfaces/routes";
+import IRoute from "../interfaces/routes";
 
 export const routes: IRoute[] = [
   {
