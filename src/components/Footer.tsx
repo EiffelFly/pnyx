@@ -1,5 +1,5 @@
 import * as React from "react";
-import { PrivateAndPoliciesButton } from "./buttons/PrivateAndPoliciesButton";
+//import { PrivateAndPoliciesButton } from "./buttons/PrivateAndPoliciesButton";
 import { FeaturesButton } from "./buttons/FeaturesButton"
 import { HowItWorksButton } from "./buttons/HowItWorksButton"
 import { CustomizeDivider } from "./layouts/CustomizeDivider";

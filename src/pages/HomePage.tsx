@@ -5,8 +5,8 @@ import { MainHero } from "../components/MainHero";
 import { Navbar } from "../components/Navbar";
 import { PageMidVerticleLine } from "../components/layouts/PageMidVerticleLine";
 import { JoinWaitListButton } from "../components/buttons/JoinWaitListButton";
-import { SeeHowPnyxWorksButton3D } from "../components/buttons/SeeHowPnyxWorksButton3D";
-import { SeeHowPnyxWorksButton } from "../components/buttons/SeeHowPnyxWorksButton";
+import SeeHowPnyxWorksButton3D from "../components/buttons/SeeHowPnyxWorksButton3D";
+import SeeHowPnyxWorksButton from "../components/buttons/SeeHowPnyxWorksButton";
 import { Footer } from "../components/Footer";
 
 

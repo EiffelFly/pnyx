@@ -1,7 +1,7 @@
 import * as React from "react";
 import { withRouter } from "react-router-dom";
 
-interface Props { }
+//interface Props { }
 
 export const PynxLogoButton = withRouter(({ history }) => {
   const [hovered, setHovered] = React.useState(false);

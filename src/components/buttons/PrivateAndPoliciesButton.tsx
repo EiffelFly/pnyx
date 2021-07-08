@@ -4,8 +4,7 @@ interface Props {}
 
 export const PrivateAndPoliciesButton: React.FC<Props> = () => {
   return (
-    <a 
-      href=""
+    <button 
       className="font-sans h-10 flex font-light text-sd-black text-lg my-auto hover:bg-sd-brcyan hover:bg-opacity-20 px-2 rounded-md"
     >
       <div
@@ -13,6 +12,6 @@ export const PrivateAndPoliciesButton: React.FC<Props> = () => {
       >
         Private & Policies
       </div>
-    </a>
+    </button>
   )
 }

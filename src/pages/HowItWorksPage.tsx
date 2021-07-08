@@ -6,7 +6,7 @@ import { MainHero } from "../components/MainHero";
 import { HowItWorksBulletPoints } from "../components/HowItWorksBulletPoints";
 import { PageMidVerticleLine } from "../components/layouts/PageMidVerticleLine";
 import { JoinWaitListButton } from "../components/buttons/JoinWaitListButton";
-import { GlanceFeaturesButton } from "../components/buttons/GlanceFeaturesButton";
+import GlanceFeaturesButton from "../components/buttons/GlanceFeaturesButton";
 
 interface Props { }
 
