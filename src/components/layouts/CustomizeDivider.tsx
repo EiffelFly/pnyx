@@ -13,3 +13,6 @@ export const CustomizeDivider: React.FC<Props> = ({ width, height }) => {
     ></div>
   )
 }
+
+// For production
+// w-2 h-6 mr-2
