@@ -15,7 +15,7 @@ export const HomePageHeadline: React.FC<Props> = ({ className }) => {
         Make great discussion occur,<br /> in graph
       </Header>
       <SubHeader>
-        Pnyx is a text discussion tool built for people who is seeking brilliant ideas and insights
+        Pnyx is a text discussion tool built upon graph, for people who is seeking brilliant ideas and insights
       </SubHeader>
     </div>
   )

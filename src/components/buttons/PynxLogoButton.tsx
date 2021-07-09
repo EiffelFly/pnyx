@@ -24,7 +24,6 @@ export const PynxLogoButton = withRouter(({ history }) => {
       onMouseLeave={toggleHover}
       onClick={() => {
         if (hovered) {
-          console.log(hovered)
           setRefreshed(true);
           toggleHover();
         }
