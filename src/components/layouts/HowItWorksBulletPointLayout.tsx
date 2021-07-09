@@ -11,7 +11,7 @@ export const HowItWorksBulletPointLayout: React.FC<Props> = ({ number, title, ch
       className={ "flex flex-col" }
     >
       <div
-        className="flex flex-row"
+        className="flex flex-col md:flex-row"
       >
         <div
           className="font-sans w-12 font-bold text-4xl text-sd-black m-auto"
@@ -19,7 +19,7 @@ export const HowItWorksBulletPointLayout: React.FC<Props> = ({ number, title, ch
           {number}
         </div>
         <div
-          className="font-sans flex-1 font-bold text-3xl text-sd-black text-left"
+          className="mt-4 md:mt-0 font-sans flex-1 font-bold text-3xl text-sd-black text-left"
         >
           {title}
         </div>

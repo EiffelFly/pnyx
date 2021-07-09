@@ -16,9 +16,9 @@ export const HowItWorksPage: React.FC<Props> = () => {
       className="flex flex-col bg-sd-brwhite w-screen h-screen overflow-y-auto"
     >
       <Navbar />
-      <HowItWorksHeadline className="mt-36 w-7/12 mx-auto" />
-      <MainHero className="mt-36 w-8/12 mx-auto" />
-      <HowItWorksBulletPoints className="mt-36 w-6/12 mx-auto" />
+      <HowItWorksHeadline className="mt-36 px-2 md:px-0 md:w-7/12 mx-auto" />
+      <MainHero className="mt-24 px-8 md:px-0 md:w-8/12 mx-auto" />
+      <HowItWorksBulletPoints className="mt-24 px-8 md:w-6/12 mx-auto" />
       <PageMidVerticleLine className="mt-16 h-80 divide-sd-brgreen divide-x-2" />
       <JoinWaitListActionButton className="mt-16 mx-auto" />
       <GlanceFeaturesActionButton className="mt-8 mx-auto" />
