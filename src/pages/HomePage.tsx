@@ -8,6 +8,7 @@ import { JoinWaitListButton } from "../components/buttons/JoinWaitListButton";
 import SeeHowPnyxWorksButton3D from "../components/buttons/SeeHowPnyxWorksButton3D";
 import SeeHowPnyxWorksButton from "../components/buttons/SeeHowPnyxWorksButton";
 import { Footer } from "../components/Footer";
+import { Logo } from "../components/Logo";
 
 
 interface Props {}
@@ -25,7 +26,8 @@ export const HomePage: React.FC<Props> = () => {
       <PageMidVerticleLine className="mt-16 h-80 divide-sd-brgreen divide-x-2" />
       <JoinWaitListButton className="mt-16 mx-auto" />
       <SeeHowPnyxWorksButton className="mt-8 mx-auto" />
-      <Footer className="mt-72" />
+      <Logo className="mt-36 mx-auto w-20 h-20" />
+      <Footer className="mt-36" />
     </div>
   )
 }
