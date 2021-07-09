@@ -5,8 +5,8 @@ import { HowItWorksHeadline } from "../components/HowItWorksHeadline";
 import { MainHero } from "../components/MainHero";
 import { HowItWorksBulletPoints } from "../components/HowItWorksBulletPoints";
 import { PageMidVerticleLine } from "../components/layouts/PageMidVerticleLine";
-import { JoinWaitListButton } from "../components/buttons/JoinWaitListButton";
-import GlanceFeaturesButton from "../components/buttons/GlanceFeaturesButton";
+import { JoinWaitListActionButton } from "../components/buttons/JoinWaitListActionButton";
+import GlanceFeaturesActionButton from "../components/buttons/GlanceFeaturesActionButton";
 
 interface Props { }
 
@@ -20,8 +20,8 @@ export const HowItWorksPage: React.FC<Props> = () => {
       <MainHero className="mt-36 w-8/12 mx-auto" />
       <HowItWorksBulletPoints className="mt-36 w-6/12 mx-auto" />
       <PageMidVerticleLine className="mt-16 h-80 divide-sd-brgreen divide-x-2" />
-      <JoinWaitListButton className="mt-16 mx-auto" />
-      <GlanceFeaturesButton className="mt-8 mx-auto" />
+      <JoinWaitListActionButton className="mt-16 mx-auto" />
+      <GlanceFeaturesActionButton className="mt-8 mx-auto" />
       <Footer className="mt-72" />
     </div>
   )

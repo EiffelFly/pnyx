@@ -5,7 +5,7 @@ import { Footer } from "../components/Footer";
 import { FeaturesHeadline } from "../components/FeaturesHeadline";
 import { FeatureBlocks } from "../components/FeatureBlocks";
 import { PageMidVerticleLine } from "../components/layouts/PageMidVerticleLine";
-import { JoinWaitListButton } from "../components/buttons/JoinWaitListButton";
+import { JoinWaitListActionButton } from "../components/buttons/JoinWaitListActionButton";
 
 
 interface Props {}
@@ -19,7 +19,7 @@ export const FeaturesPage: React.FC<Props> = () => {
       <FeaturesHeadline className="mt-36 w-7/12 mx-auto" />
       <FeatureBlocks className="mt-36 w-8/12 mx-auto" />
       <PageMidVerticleLine className="mt-16 h-80 divide-sd-brgreen divide-x-2" />
-      <JoinWaitListButton className="mt-16 mx-auto" />
+      <JoinWaitListActionButton className="mt-16 mx-auto" />
       <Footer className="mt-72" />
     </div>
   )
