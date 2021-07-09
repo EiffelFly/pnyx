@@ -19,7 +19,7 @@ export const HomePage: React.FC<Props> = () => {
       className="flex flex-col h-screen w-screen bg-sd-brwhite overflow-y-auto"
     >
       <Navbar />
-      <HomePageHeadline className="mt-36 px-2 w-full md:w-7/12 md:px-0 mx-auto" />
+      <HomePageHeadline className="mt-36 px-4 w-full md:w-7/12 md:px-0 mx-auto" />
       <SeeHowPnyxWorksActionButton3D className="mt-24 mx-auto" />
       <MainHero className="mt-24 px-8 md:w-8/12 md:px-0 mx-auto" />
       <MainCopyWrite className="mt-24 px-8 md:w-6/12 md:px-0 mx-auto" />

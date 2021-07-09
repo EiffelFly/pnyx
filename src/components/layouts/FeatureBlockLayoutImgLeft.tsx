@@ -10,7 +10,7 @@ interface Props {
 export const FeatureBlockLayoutImgLeft: React.FC<Props> = ({ title, content, children }) => {
   return (
     <div
-      className="flex flex-row w-full bg-sd-white p-8 rounded-2xl gap-x-8"
+      className="flex flex-col md:flex-row w-full bg-sd-white p-8 rounded-2xl gap-y-16 md:gap-x-8"
     >
       <FeatureBlockImg>
         {children}
