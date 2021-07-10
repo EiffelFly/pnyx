@@ -8,6 +8,7 @@ import { PageMidVerticleLine } from "../components/layouts/PageMidVerticleLine";
 import { JoinWaitListActionButton } from "../components/buttons/JoinWaitListActionButton";
 import GlanceFeaturesActionButton from "../components/buttons/GlanceFeaturesActionButton";
 import { Logo } from "../components/Logo";
+import { HowItWorksPageTitle } from "../components/HowItWorksPageTitle";
 
 interface Props { }
 
@@ -17,7 +18,8 @@ export const HowItWorksPage: React.FC<Props> = () => {
       className="flex flex-col bg-sd-brwhite w-screen h-screen overflow-y-auto"
     >
       <Navbar />
-      <HowItWorksHeadline className="mt-36 px-4 md:px-0 md:w-7/12 mx-auto" />
+      <HowItWorksPageTitle className="mt-36 px-4 md:px-0 mx-auto" />
+      <HowItWorksHeadline className="mt-12 px-4 md:px-0 md:w-7/12 mx-auto" />
       <MainHero className="mt-24 px-8 md:px-0 md:w-8/12 mx-auto" />
       <HowItWorksBulletPoints className="mt-24 px-8 md:w-6/12 mx-auto" />
       <PageMidVerticleLine className="mt-16 h-80 divide-sd-brgreen divide-x-2" />
