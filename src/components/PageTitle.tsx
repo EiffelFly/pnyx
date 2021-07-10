@@ -10,7 +10,7 @@ export const PageTitle: React.FC<Props> = ({ children, className }) => {
       className={"flex flex-col " + className}
     >
       <div
-        className="font-sans font-semibold text-3xl"
+        className="font-sans font-semibold text-3xl text-sd-black"
       >
         {children}
       </div>
