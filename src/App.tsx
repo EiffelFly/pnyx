@@ -1,12 +1,12 @@
 import './App.css';
 import { BrowserRouter, Route, Switch, RouteComponentProps } from "react-router-dom"
 import { routes } from "./config/routes"
-
+import { Suspense } from "react"
 
 
 function App() {
   return (
-    <div>
+    <Suspense fallback="Loading...">
       <BrowserRouter>
         <Switch>
           {routes.map((route, index) => {
@@ -27,7 +27,7 @@ function App() {
           })}
         </Switch>
       </BrowserRouter>
-    </div>
+    </Suspense>
   );
 }
 

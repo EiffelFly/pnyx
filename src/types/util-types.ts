@@ -1,3 +1,5 @@
+// https://stackoverflow.com/questions/58434389/typescript-deep-keyof-of-a-nested-object
+
 type Join<S1, S2> = S1 extends string
   ? S2 extends string
     ? `${S1}.${S2}`

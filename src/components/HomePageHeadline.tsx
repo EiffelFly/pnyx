@@ -1,21 +1,27 @@
 import * as React from "react";
 import { Header } from "./Header";
 import { SubHeader } from "./SubHeader";
+import { useTranslation } from "react-i18next";
+
 
 interface Props {
   className: string
 }
 
 export const HomePageHeadline: React.FC<Props> = ({ className }) => {
+
+  const { t } = useTranslation();
+
   return (
     <div
       className={"flex flex-col gap-y-4 " +  className }
     >
       <Header >
-        Make great discussion occur,<br /> in graph
+        {t("pages:main.header.line1")}<br /> 
+        {t("pages:main.header.line2")}
       </Header>
       <SubHeader>
-        Pnyx is a text discussion tool built upon graph, for people who is seeking static and persistent space to host deep and meaningful discussion.
+        {t("pages:main.subheader")}
       </SubHeader>
     </div>
   )
