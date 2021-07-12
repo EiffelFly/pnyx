@@ -78,7 +78,8 @@
       "glanceFeaturesActionButton": "Glance Pnyx features",
       "joinWaitListActionButton": "Join waitlist",
       "featuresButton": "Features",
-      "howItWorksButton": "How it works"
+      "howItWorksButton": "How it works",
+      "translationButton": "Translation"
     }
   }
 }

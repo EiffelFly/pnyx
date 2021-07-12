@@ -2,6 +2,7 @@ import React from "react";
 import { HowItWorksButton } from "./buttons/HowItWorksButton";
 import { FeaturesButton } from "./buttons/FeaturesButton";
 import { PynxLogoButton } from "./buttons/PynxLogoButton";
+import { NavBarTranslationDropdown } from "./NavbarTranslationDropdown";
 
 export const Navbar: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ export const Navbar: React.FC = () => {
       >
         <FeaturesButton />
         <HowItWorksButton />
+        <NavBarTranslationDropdown />
       </div>
     </div>
   )
