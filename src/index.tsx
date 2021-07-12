@@ -12,6 +12,7 @@ initI18n();
 if (process.env.NODE_ENV === "production"){
   initAmplitude();
   sendAmplitudeData("hitting_landing_page", {})
+  console.log(process.env)
 }
 
 ReactDOM.render(
