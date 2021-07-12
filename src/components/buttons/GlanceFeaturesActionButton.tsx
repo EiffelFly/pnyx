@@ -1,11 +1,15 @@
 import * as React from "react";
 import { withRouter, RouteComponentProps } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   className: string;
 }
 
 const GlanceFeaturesActionButton: React.FC<Props & RouteComponentProps> = ({ className, history }) => {
+
+  const { t } = useTranslation();
+
   return (
     <button
       className={"w-60 md:w-80 py-3 bg-sd-brwhite rounded-lg text-sd-black border border-sd-brcyan text-center text-xl md:text-2xl font-bold cursor-pointer hover:bg-sd-white " + className }
@@ -13,7 +17,7 @@ const GlanceFeaturesActionButton: React.FC<Props & RouteComponentProps> = ({ cla
         history.push("/features")
       }}
     >
-      Glance Pnyx features
+      {t("components:buttons.glanceFeaturesActionButton")}
     </button>
   )
 }

@@ -17,7 +17,7 @@ const SeeHowPnyxWorksActionButton: React.FC<Props & RouteComponentProps> = ({ cl
         history.push("/how-it-works")
       }}
     >
-      {t("components:buttons.seeHowPnyxWorksAction")}
+      {t("components:buttons.seeHowPnyxWorksActionButton")}
     </button>
   )
 }

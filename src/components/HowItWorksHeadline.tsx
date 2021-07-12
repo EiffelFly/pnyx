@@ -1,21 +1,26 @@
 import React from "react";
 import { Header } from "./Header";
 import { SubHeader } from "./SubHeader";
+import { useTranslation } from "react-i18next";
+
 
 interface Props {
   className: string;
 }
 
 export const HowItWorksHeadline: React.FC<Props> = ({ className }) => {
+
+  const { t } = useTranslation();
+
   return (
     <div
     className={"flex flex-col gap-y-4 " +  className }
     >
       <Header >
-        Take every conversation as whole picture
+        {t("pages:howItWorks.header")}
       </Header>
       <SubHeader>
-        Graph is powerful tool for discussion, it leverages everyone to involve into the dicussion deeper
+        {t("pages:howItWorks.subheader")}
       </SubHeader>
     </div>
   )

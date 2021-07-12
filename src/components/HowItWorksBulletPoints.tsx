@@ -1,5 +1,6 @@
 import * as React from "react";
 import { HowItWorksBulletPointLayout } from "./layouts/HowItWorksBulletPointLayout";
+import { useTranslation } from "react-i18next";
 
 
 interface Props { 
@@ -7,41 +8,36 @@ interface Props {
 }
 
 export const HowItWorksBulletPoints: React.FC<Props> = ({ className }) => {
+
+  const { t } = useTranslation();
+
   return (
     <div
       className={ "flex flex-col gap-y-20 " + className }
     >
       <HowItWorksBulletPointLayout
         number={1}
-        title={"Create a public or private pynx and invite people in."}
+        title={t("pages:howItWorks.bulletPoints.one.title")}
       >
-        Everyone can participate in public pynx and it will show up at pynx official website. 
-        Once pynx set to private, only whom are invited though customize url can join.
+        {t("pages:howItWorks.bulletPoints.one.content")}
       </HowItWorksBulletPointLayout>
       <HowItWorksBulletPointLayout
         number={2}
-        title={"Write down what you think just as before."}
+        title={t("pages:howItWorks.bulletPoints.two.title")}
       >
-        And we will take every comment as a node and display it on the graph we called “Hologram”. 
-        And when you go down a layer we will draw a line between the child 
-        and its parent to let everyone know the discussion had been deeper.
+        {t("pages:howItWorks.bulletPoints.two.content")}
       </HowItWorksBulletPointLayout>
       <HowItWorksBulletPointLayout
         number={3}
-        title={"Reference anything when you needed."}
+        title={t("pages:howItWorks.bulletPoints.three.title")}
       >
-        Copy and paste any external url when you want to reference it, 
-        Pnyx will automatically recognize it and draw dashed line between comment and 
-        reference on Hologram. In the meanwhile it will also store all the reference 
-        at the same place for searching or tracking. You can also reference the comment 
-        in this discussion.
+        {t("pages:howItWorks.bulletPoints.three.content")}
       </HowItWorksBulletPointLayout>
       <HowItWorksBulletPointLayout
         number={4}
-        title={"Archive whole discussion for future."}
+        title={t("pages:howItWorks.bulletPoints.four.title")}
       >
-        Once you finish the discussion or want to temporary close it, you can archive the discussion. 
-        It can act like static website for public usage or private archive for yourself.
+        {t("pages:howItWorks.bulletPoints.four.content")}
       </HowItWorksBulletPointLayout>
     </div>
   )

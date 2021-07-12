@@ -1,9 +1,12 @@
 import { useState } from "react";
 import { withRouter } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export const FeaturesButton = withRouter(({ history, location }) => {
 
   const [match,] = useState(location.pathname === "/features" ? true : false);
+
+  const { t } = useTranslation();
 
   return (
     <button
@@ -19,7 +22,7 @@ export const FeaturesButton = withRouter(({ history, location }) => {
       <div
         className="my-auto"
       >
-        Features
+        {t("components:buttons.featuresButton")}
       </div>
     </button>
   )

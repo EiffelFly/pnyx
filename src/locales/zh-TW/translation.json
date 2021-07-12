@@ -21,13 +21,38 @@
         "paragraph8": "但是我們還是期待絕佳的討論。透過網路，透過連結來分享點子，激發創意。透過討論來建構與彼此更深的連結。",
         "paragraph9": "現在恰好是時候。讓我們重新想像、思考、創造嶄新的討論平台。"
       }
+    },
+    "howItWorks": {
+      "pageTitle": "運作方式",
+      "header": "掌握討論的全貌",
+      "subheader": "力圖可以強化討論，讓每個人更沈浸於討論之中",
+      "bulletPoints": {
+        "one": {
+          "title": "創建公開或私人的 Pnyx 並邀請人們進來",
+          "content": "任何人都可以加入公開的 Pnyx，而私人的 Pnyx 唯有那些被邀請的人才能加入。"
+        },
+        "two": {
+          "title": "在討論區內寫下你的所思所想",
+          "content": "我們會自動將每個回應於力圖中以節點的形式呈現出來，並且於回覆之間繪製連結。"
+        },
+        "three": {
+          "title": "隨時納入參考資料",
+          "content": "複製貼上參考資料的連結後，Pnyx 會自動辨識該連結是否重複，並且將它放入力圖之中，並以虛線連結回應。與這同時，Pnyx 會將所有的參考資料匯聚在同一個區塊，方便管理與查詢。你也可以索引他人的回覆"
+        },
+        "four": {
+          "title": "將討論歸檔",
+          "content": "當討論結束時，你可以暫時性關閉它，並且將它歸檔。歸檔後的討論可以被下載或是以靜態網頁的形式存在"
+        }
+      }
     }
   },
   "components": {
     "buttons": {
       "seeHowPnyxWorksAction": "一窺 Pnyx 運作方式",
       "seeHowPnyxWorksAction3D": "一窺 Pnyx 運作方式",
-      "featuresButton": "特色"
+      "glanceFeaturesActionButton": "一窺 Pnyx 的特色",
+      "featuresButton": "特色",
+      "howItWorksButton": "運作方式"
     }
   }
 }

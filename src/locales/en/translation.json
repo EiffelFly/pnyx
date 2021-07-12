@@ -23,13 +23,38 @@
         "paragraph8": "But we are still looking forward to have a great discussion, though internet, though connection. To share ideas, to spark genius, to interact with each other in a deep manner.",
         "paragraph9": "It's time to re-image, re-think, re-do the software for wonderful discussions."
       }
+    },
+    "howItWorks": {
+      "pageTitle": "How it works",
+      "header": "Take every conversation as whole picture",
+      "subheader": "Graph is powerful tool for discussion, it leverages everyone to involve into the dicussion deeper",
+      "bulletPoints": {
+        "one": {
+          "title": "Create a public or private pynx and invite people in.",
+          "content": "Everyone can participate in public pynx and it will show up at pynx official website. Once pynx set to private, only whom are invited though customize url can join."
+        },
+        "two": {
+          "title": "Write down what you think just as before.",
+          "content": "And we will take every comment as a node and display it on the graph we called “Hologram”. And when you go down a layer we will draw a line between the child and its parent to let everyone know the discussion had been deeper."
+        },
+        "three": {
+          "title": "Reference anything when you needed.",
+          "content": "Copy and paste any external url when you want to reference it, Pnyx will automatically recognize it and draw dashed line between comment and reference on Hologram. In the meanwhile it will also store all the reference at the same place for searching or tracking. You can also reference the comment in this discussion."
+        },
+        "four": {
+          "title": "Archive whole discussion for future.",
+          "content": "Once you finish the discussion or want to temporary close it, you can archive the discussion. It can act like static website for public usage or private archive for yourself."
+        }
+      }
     }
   },
   "components": {
     "buttons": {
-      "seeHowPnyxWorksAction": "See how Pnyx works",
-      "seeHowPnyxWorksAction3D": "See how Pnyx works",
-      "featuresButton": "Features"
+      "seeHowPnyxWorksActionButton": "See how Pnyx works",
+      "seeHowPnyxWorksActionButton3D": "See how Pnyx works",
+      "glanceFeaturesActionButton": "Glance Pnyx features",
+      "featuresButton": "Features",
+      "howItWorksButton": "How it works"
     }
   }
 }

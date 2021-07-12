@@ -18,7 +18,7 @@ const SeeHowPnyxWorksActionButton3D: React.FC<Props & RouteComponentProps> = ({ 
         history.push("/how-it-works")
       }}
     >
-      {t("components:buttons.seeHowPnyxWorksAction3D")}
+      {t("components:buttons.seeHowPnyxWorksActionButton3D")}
     </button>
   )
 }
