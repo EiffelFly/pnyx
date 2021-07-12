@@ -6,7 +6,7 @@
         "line1": "以力圖建構",
         "line2": "嶄新的討論方式"
       },
-      "subheader": "Pnyx 是以力圖為主體的文字討論工具，專為了長期、靜態的討論設計。它的獨特架構能使討論更深入且富有洞見",
+      "subHeader": "Pnyx 是以力圖為主體的文字討論工具，專為了長期、靜態的討論設計。它的獨特架構能使討論更深入且富有洞見",
       "copywrite": {
         "paragraph1": {
           "line1": "嗨！",
@@ -25,7 +25,7 @@
     "howItWorks": {
       "pageTitle": "運作方式",
       "header": "掌握討論的全貌",
-      "subheader": "力圖可以強化討論，讓每個人更沈浸於討論之中",
+      "subHeader": "力圖可以強化討論，讓每個人更沈浸於討論之中",
       "bulletPoints": {
         "one": {
           "title": "創建公開或私人的 Pnyx 並邀請人們進來",
@@ -44,13 +44,37 @@
           "content": "當討論結束時，你可以暫時性關閉它，並且將它歸檔。歸檔後的討論可以被下載或是以靜態網頁的形式存在"
         }
       }
+    },
+    "features": {
+      "pageTitle": "特色",
+      "header": "為了醞釀洞見而生",
+      "subHeader": "文字討論是醞釀洞見的良好媒介，非即時的特性可以開展出更多的空間。",
+      "features": {
+        "one": {
+          "title": "以力圖為核心的體驗",
+          "content": "與一般的條列式結構不同，我們以力圖重新組織討論，透過我們稱為「Hologram」的結構，您可以一眼掌握討論全貌。"
+        },
+        "two": {
+          "title": "即時與否，由你掌握",
+          "content": "即時溝通是一個雙面刃，它帶來許多便利卻也壓縮了思考的空間。即時與否將由你控制，你可以決定這個討論是否顯示每個人的動態。"
+        },
+        "three": {
+          "title": "集中管理參考資料",
+          "content": "參考資料將被聚集在同一個區塊，討論參與者可以將某一個參考資料列為可疑，並以此警告其他討論者。"          
+        },
+        "four": {
+          "title": "歸檔討論",
+          "content": "討論很珍貴，它不應該被新的內容淹沒覆蓋。當你歸檔一個 Pnyx 時，你可以以 JSON 格式下載整個討論或是將它轉換成靜態的網頁公開讓人使用"
+        }
+      }
     }
   },
   "components": {
     "buttons": {
-      "seeHowPnyxWorksAction": "一窺 Pnyx 運作方式",
-      "seeHowPnyxWorksAction3D": "一窺 Pnyx 運作方式",
+      "seeHowPnyxWorksActionButton": "一窺 Pnyx 運作方式",
+      "seeHowPnyxWorksActionButton3D": "一窺 Pnyx 運作方式",
       "glanceFeaturesActionButton": "一窺 Pnyx 的特色",
+      "joinWaitListActionButton": "參與討論",
       "featuresButton": "特色",
       "howItWorksButton": "運作方式"
     }

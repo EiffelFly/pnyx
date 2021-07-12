@@ -20,7 +20,7 @@ export const HowItWorksHeadline: React.FC<Props> = ({ className }) => {
         {t("pages:howItWorks.header")}
       </Header>
       <SubHeader>
-        {t("pages:howItWorks.subheader")}
+        {t("pages:howItWorks.subHeader")}
       </SubHeader>
     </div>
   )

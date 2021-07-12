@@ -21,7 +21,7 @@ export const HomePageHeadline: React.FC<Props> = ({ className }) => {
         {t("pages:main.header.line2")}
       </Header>
       <SubHeader>
-        {t("pages:main.subheader")}
+        {t("pages:main.subHeader")}
       </SubHeader>
     </div>
   )

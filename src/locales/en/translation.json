@@ -8,7 +8,7 @@
         "line1": "Make great discussion occur,",
         "line2": "in graph"
       },
-      "subheader": "Pnyx is a text discussion tool built upon graph, for people who is seeking static and persistent space to host deep and meaningful discussion.",
+      "subHeader": "Pnyx is a text discussion tool built upon graph, for people who is seeking static and persistent space to host deep and meaningful discussion.",
       "copywrite": {
         "paragraph1": {
           "line1": "Hi,",
@@ -27,7 +27,7 @@
     "howItWorks": {
       "pageTitle": "How it works",
       "header": "Take every conversation as whole picture",
-      "subheader": "Graph is powerful tool for discussion, it leverages everyone to involve into the dicussion deeper",
+      "subHeader": "Graph is powerful tool for discussion, it leverages everyone to involve into the dicussion deeper",
       "bulletPoints": {
         "one": {
           "title": "Create a public or private pynx and invite people in.",
@@ -46,6 +46,29 @@
           "content": "Once you finish the discussion or want to temporary close it, you can archive the discussion. It can act like static website for public usage or private archive for yourself."
         }
       }
+    },
+    "features": {
+      "pageTitle": "Features",
+      "header": "Built for cultivating briliant ideas",
+      "subHeader": "Discuss in text is a powerful way to gain insight, it non-realtime feature provide us space for great ideas.",
+      "features": {
+        "one": {
+          "title": "Graph centered experience",
+          "content": "Different from traditional listing structure, we rearrange discussion in graph. With the graph we called 'Hologram' you can have the whole picture of this discussion."
+        },
+        "two": {
+          "title": "Real-time or not, in your control",
+          "content": "Real-time conversation has double-edge, it may benefit you at some situation but will shrink the space for cultivating brilliant idea. This is in your control, you can determine whether activate the real-time feature of this discussion."
+        },
+        "three": {
+          "title": "Manage reference at one place",
+          "content": "References are all tracked in one place, attendee can mark references as suspicious and warn others when reference it."
+        },
+        "four": {
+          "title": "Archive discussion for future",
+          "content": "Discussion is valuable, it should not flooded away by new content day by day, there should be single place to store these pleasure. When you archive the discussion you can download it as JSON file or store in our database and act as static page for future reference."
+        }
+      }
     }
   },
   "components": {
@@ -53,6 +76,7 @@
       "seeHowPnyxWorksActionButton": "See how Pnyx works",
       "seeHowPnyxWorksActionButton3D": "See how Pnyx works",
       "glanceFeaturesActionButton": "Glance Pnyx features",
+      "joinWaitListActionButton": "Join waitlist",
       "featuresButton": "Features",
       "howItWorksButton": "How it works"
     }
