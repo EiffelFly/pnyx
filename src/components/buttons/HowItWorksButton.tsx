@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { withRouter } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { sendAmplitudeData } from "../../utilities/amplitude"
+
 
 export const HowItWorksButton = withRouter(({ history, location }) => {
 
@@ -17,6 +19,7 @@ export const HowItWorksButton = withRouter(({ history, location }) => {
       }
       onClick={() => {
         history.push("/how-it-works");
+        sendAmplitudeData("hitting_how_it_works_page", {})
       }}
     >
       <div

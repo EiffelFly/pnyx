@@ -1,4 +1,5 @@
 import * as React from "react";
+import { sendAmplitudeData } from "../../utilities/amplitude";
 
 interface Props {};
 
@@ -9,6 +10,9 @@ export const DiscordButton: React.FC<Props> = () => {
       href="https://discord.gg/Qve3u9gahE"
       target="_blank"
       rel="noopener noreferrer"
+      onClick={() => {
+        sendAmplitudeData("join_discord", {})
+      }}
     >
       <div
         className="my-auto"

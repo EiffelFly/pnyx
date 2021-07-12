@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { withRouter } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { sendAmplitudeData } from "../../utilities/amplitude";
 
 export const FeaturesButton = withRouter(({ history, location }) => {
 
@@ -17,6 +18,7 @@ export const FeaturesButton = withRouter(({ history, location }) => {
       }
       onClick={() => {
         history.push("/features");
+        sendAmplitudeData("hitting_features_page", {})
       }}
     >
       <div
