@@ -1,7 +1,7 @@
 import * as React from "react";
 import { sendAmplitudeData } from "../../utilities/amplitude";
 
-interface Props {};
+interface Props { };
 
 export const DiscordButton: React.FC<Props> = () => {
   return (
