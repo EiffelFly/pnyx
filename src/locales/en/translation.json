@@ -8,7 +8,28 @@
         "line1": "Make great discussion occur,",
         "line2": "in graph"
       },
-      "subheader": "Pnyx is a text discussion tool built upon graph, for people who is seeking static and persistent space to host deep and meaningful discussion."
+      "subheader": "Pnyx is a text discussion tool built upon graph, for people who is seeking static and persistent space to host deep and meaningful discussion.",
+      "copywrite": {
+        "paragraph1": {
+          "line1": "Hi,",
+          "line2": "I am Po Chun"
+        },
+        "paragraph2": "Discussion are crucial. It sparks brilliant and novel ideas. It leverages the best part of us and share with others by default. It feels great when discuss with someone about the topic you are interested in.",
+        "paragraph3": "No matter what perspective we have, though discussion we may reach some standpoint we share together.",
+        "paragraph4": "But discussion now seems to be shallow and fragmented, it steadily becomes something to let us browse through rather than something to think and engage.",
+        "paragraph5": "It is filled with fake information and polarized messages, its quantity surpasses its quality, it becomes hard to organize and eroded by new content day by day. It lost the space to cultivate insightful ideas.",
+        "paragraph6": "Discuss on the internet feel like swim in a very small and dirty pond with no fresh water enter.",
+        "paragraph7": "Social media, online forums, message tools, communication tools. They are not good at operating a good discussion. They are hard to see the whole picture. In the meanwhile, the flow on these platform is too fast to brew. People are constantly distracted by new content.",
+        "paragraph8": "But we are still looking forward to have a great discussion, though internet, though connection. To share ideas, to spark genius, to interact with each other in a deep manner.",
+        "paragraph9": "It's time to re-image, re-think, re-do the software for wonderful discussions."
+      }
+    }
+  },
+  "components": {
+    "buttons": {
+      "seeHowPnyxWorksAction": "See how Pnyx works",
+      "seeHowPnyxWorksAction3D": "See how Pnyx works",
+      "featuresButton": "Features"
     }
   }
 }
