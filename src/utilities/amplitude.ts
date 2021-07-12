@@ -1,11 +1,10 @@
 import amplitude from 'amplitude-js';
 import { UserProperties, Event, EventProperties } from "../types/amplitude"
-import amplitudeConfig from "../amplitude-config.js"
 
 const amplitudeInstance = amplitude.getInstance();
 
 export const initAmplitude = () => {
-  amplitudeInstance.init(amplitudeConfig.API_KEY);
+  amplitudeInstance.init(process.env.REACT_APP_AMPLITUDE_API_KEY);
 };
 
 export const setAmplitudeUserId = ( userId: string ) => {
