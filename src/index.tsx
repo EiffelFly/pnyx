@@ -8,8 +8,11 @@ import { initI18n } from "./lib/i18n"
 import { initAmplitude, sendAmplitudeData } from "./utilities/amplitude"
 
 initI18n();
-initAmplitude();
-sendAmplitudeData("hitting_landing_page", {})
+
+if (process.env.NODE_ENV === "production"){
+  initAmplitude();
+  sendAmplitudeData("hitting_landing_page", {})
+}
 
 ReactDOM.render(
   <React.StrictMode>
