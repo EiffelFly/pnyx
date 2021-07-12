@@ -1,6 +1,6 @@
 import amplitude from 'amplitude-js';
 import { UserProperties, Event, EventProperties } from "../types/amplitude"
-import amplitudeConfig from "../amplitude-config"
+import amplitudeConfig from "../amplitude-config.js"
 
 const amplitudeInstance = amplitude.getInstance();
 
