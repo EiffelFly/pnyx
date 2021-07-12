@@ -1,8 +1,7 @@
 import React from "react";
 import { HowItWorksButton } from "./buttons/HowItWorksButton";
-import { FeaturesButton } from "./buttons/FeaturesButton"
+import { FeaturesButton } from "./buttons/FeaturesButton";
 import { PynxLogoButton } from "./buttons/PynxLogoButton";
-
 
 export const Navbar: React.FC = () => {
   return (
