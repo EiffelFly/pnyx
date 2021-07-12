@@ -14,7 +14,7 @@ export const FeaturesHeadline: React.FC<Props> = ({ className }) => {
 
   return (
     <div
-      className={"flex flex-col gap-y-4 " +  className }
+      className={"flex flex-col gap-y-8 " +  className }
     >
       <Header>
         {t("pages:features.header")}
