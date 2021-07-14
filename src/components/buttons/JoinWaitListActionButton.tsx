@@ -12,7 +12,7 @@ export const JoinWaitListActionButton: React.FC<Props> = ({ className }) => {
 
   return (
     <a
-      href="https://usepnyx.substack.com/p/coming-soon?r=ou126&utm_campaign=post&utm_medium=web&utm_source=copy"
+      href="https://forms.gle/4L4ohX6ix9RWqN3q6"
       target="_blank"
       rel="noopener noreferrer"
       className={"w-60 md:w-80 py-3 bg-sd-brcyan rounded-lg text-sd-brwhite text-center text-xl md:text-2xl font-bold cursor-pointer hover:bg-sd-brblue " + className }
