@@ -3,6 +3,7 @@ import { DiscordButton } from "./buttons/DiscordButton";
 //import { PrivateAndPoliciesButton } from "./buttons/PrivateAndPoliciesButton";
 import { FeaturesButton } from "./buttons/FeaturesButton"
 import { HowItWorksButton } from "./buttons/HowItWorksButton"
+import { SubstackButton } from "./buttons/SubstackButton";
 import { CustomizeDivider } from "./layouts/CustomizeDivider";
 
 interface Props { 
@@ -19,6 +20,8 @@ export const Footer: React.FC<Props> = ({ className }) => {
       <HowItWorksButton />
       <CustomizeDivider height={6} width={2} />
       <DiscordButton />
+      <CustomizeDivider height={6} width={2} />
+      <SubstackButton />
     </div>
   )
 }

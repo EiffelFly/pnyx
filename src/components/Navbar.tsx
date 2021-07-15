@@ -4,6 +4,7 @@ import { FeaturesButton } from "./buttons/FeaturesButton";
 import { PynxLogoButton } from "./buttons/PynxLogoButton";
 import { NavBarTranslationDropdown } from "./NavbarTranslationDropdown";
 import { DiscordButton } from "./buttons/DiscordButton";
+import { SubstackButton } from "./buttons/SubstackButton";
 
 export const Navbar: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ export const Navbar: React.FC = () => {
         className="ml-auto flex flex-row gap-x-6"
       >
         <DiscordButton />
+        <SubstackButton />
         <FeaturesButton />
         <HowItWorksButton />
         <NavBarTranslationDropdown />
